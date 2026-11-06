@@ -6,7 +6,7 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1">
 
-    <title>My Python Web Application</title>
+    <title>PYTHON WEB APP</title>
 
     <style>
         body {
@@ -43,44 +43,31 @@
 
 <body>
 
-    <h1>My Python Web Application</h1>
-    <p>Welcome to my Week 2 project!</p>
+    <h1>PYTHON WEB APP</h1>
 
     <div class="box">
         <h2>Visitor Counter</h2>
-        <p>This page has been loaded</p>
+        <p>This number shows how many times page have been opened and loaded. </p>
         <div class="counter">{{ visits }}</div>
-        <p>times!</p>
-    </div>
 
     <div class="box">
-        <h2>How does it work?</h2>
+        <h2>How this counter and page works?</h2>
         <p>
-            This website uses Python and Flask.
-            Nginx forwards requests to the application.
-        </p>
-        <p>
-            The visitor counter is stored in a
-            MariaDB database. Every page load
-            increases the value by one.
+            I used Python and Flask to build this app. Nginx handles the web requests and passes them to my app. 
+            MariaDB stores the visit count. If someone opens or load this page, the number goes up.
         </p>
     </div>
 
     <div class="box">
         <h2>Restart Test</h2>
 <p>
-  I restarted my Ubuntu server and tested
-  the application again. Nginx, Flask and
-  MariaDB started automatically. The visitor
-  counter kept its value because it is stored
-  in a MariaDB database.
+  I restarted server and app started automatically and counter kept its previous value.
 </p>
     </div>
 
     <div class="box">
-        <h2>GitHub Repository</h2>
         <p> <a href="https://github.com/teeapiet/viikkotehtava2">
-    View my source code on GitHub
+     GitHub Repository
   </a></p>
     </div>
 
